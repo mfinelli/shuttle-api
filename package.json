@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"repository": {
-	"type": "git",
-	"url": "https://github.com/naveedn/shuttle-api.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naveedn/shuttle-api.git"
   },
   "keywords": [
     "transit",
@@ -26,6 +26,9 @@
   "dependencies": {
     "body-parser": "^1.12.2",
     "express": "^4.12.3",
+    "mariasql": "^0.1.22",
+    "mysql": "^2.6.1",
+    "sequelize": "^2.0.5",
     "twilio": "^1.11.1"
   }
 }
