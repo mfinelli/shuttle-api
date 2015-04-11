@@ -1,0 +1,31 @@
+{
+  "name": "shuttle-api",
+  "version": "1.0.0",
+  "description": "a Node.js API that provides data endpoints for shuttle",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"repository": {
+	"type": "git",
+	"url": "https://github.com/naveedn/shuttle-api.git"
+  },
+  "keywords": [
+    "transit",
+    "bus",
+    "transportation",
+    "travel",
+    "metro"
+  ],
+  "author": "naveedn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveedn/shuttle-api/issues"
+  },
+  "homepage": "https://github.com/naveedn/shuttle-api",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "twilio": "^1.11.1"
+  }
+}
