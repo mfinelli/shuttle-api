@@ -15,6 +15,8 @@ router.get('/activate', function(req,res){
 
 // get location from beacon
 router.get('/:id', function(req,res){
+	send_locator_request("+13015204790");
+	setTimeout(receive_locator_response("+13015204790",2), 30000);
 	// do a lookup based on the id passed in	
 	// find the associated phone number of the beacon associated with id
 	// record timestamp 
